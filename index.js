@@ -42,4 +42,6 @@ function simulateButtonClickWithDelay(element, delay, callback) {
     }, delay)
 }
 
+document.querySelector('.menu-about span').textContent = 'Auto Mode'
+
 liveChange()
